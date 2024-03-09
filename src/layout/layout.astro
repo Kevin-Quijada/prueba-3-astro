@@ -1,8 +1,8 @@
 ---
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "../components/Header.astro"
-import Tienda from "../components/Categoria.astro"
 import Footer from "../components/Footer.astro"
+
 ---
 
 
@@ -17,9 +17,9 @@ import Footer from "../components/Footer.astro"
 	<header>
 		<Header/>
 	</header>
-	<body>
-		<Tienda/>
-	</body>
+	<main>
+		<slot/>
+	</main>
 	<footer>
 		<Footer/>
 	</footer>
